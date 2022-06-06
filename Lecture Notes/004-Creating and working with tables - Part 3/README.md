@@ -1,50 +1,27 @@
-3. https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1/?page=4&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&category[]=Tree&sortBy=submissions
-
-```cpp
-vector<int> findSpiral(Node *root)
-{
-    //Your code here
-    vector<int> v;
-    int level=0;
-    if(root==NULL)
-	{
-        return v;
-    }
-    queue<Node*> q;
-    q.push(root);
-    
-	while(!q.empty())
-	{
-        int size=q.size(); 
-        vector<int> temp;
-        for(int i=0;i<size;i++)
-		{
-            Node* r=q.front();
-            q.pop();
-            temp.push_back(r->data);
-            
-			if(r->left)
-			{
-                q.push(r->left);
-            }
-            
-			if(r->right)
-			{
-                q.push(r->right);
-            }
-        }
-        if(level%2==0)
-		{
-            reverse(temp.begin(),temp.end());
-        }
-        
-		for(int i=0;i<temp.size();i++)
-		{
-            v.push_back(temp[i]);
-        }
-        level++;
-    }
-    return v;
-}
-
-```
+![img249](https://user-images.githubusercontent.com/106215989/172094073-ff7f5ef9-e909-4069-98b5-3a8cd6bd9bda.jpg)
+![img251](https://user-images.githubusercontent.com/106215989/172094079-5557fab5-375d-46e5-b200-db8100d4dd2b.jpg)
+![img253](https://user-images.githubusercontent.com/106215989/172094080-4fa493d6-fcb6-4940-86a0-1bcd44732d95.jpg)
+![img255](https://user-images.githubusercontent.com/106215989/172094081-03f0356f-e826-4de9-a86e-e8c16a7f012a.jpg)
+![img257](https://user-images.githubusercontent.com/106215989/172094083-986c7c7c-06a1-46de-b3bd-4e4673a21f7a.jpg)
+![img259](https://user-images.githubusercontent.com/106215989/172094084-93a130e1-12b5-4e74-844f-033faf2bd5f4.jpg)
+![img261](https://user-images.githubusercontent.com/106215989/172094089-373525ce-0497-479e-9fdc-0bae82e83dd7.jpg)
+![img263](https://user-images.githubusercontent.com/106215989/172094091-761ff966-811f-42ee-a3e1-bc09f5ef4528.jpg)
+![img265](https://user-images.githubusercontent.com/106215989/172094092-4e9a9110-46bc-4ff7-8fd9-1ae08b0638af.jpg)
+![img267](https://user-images.githubusercontent.com/106215989/172094094-acc82224-1cb9-4c97-ad5c-39b750fccb0f.jpg)
+![img269](https://user-images.githubusercontent.com/106215989/172094096-72a7e379-ca48-45fa-b690-e4feea71b334.jpg)
+![img271](https://user-images.githubusercontent.com/106215989/172094099-f227a598-ba9f-4094-9f1a-2908f61e42ef.jpg)
+![img273](https://user-images.githubusercontent.com/106215989/172094100-2a62d640-f556-4a65-82b0-5381043ff596.jpg)
+![img275](https://user-images.githubusercontent.com/106215989/172094101-264c6484-d2ec-48c4-8a6d-90f01786cd2e.jpg)
+![img277](https://user-images.githubusercontent.com/106215989/172094102-2f5cc7b7-a31b-48b3-a45a-aff90570a6e7.jpg)
+![img279](https://user-images.githubusercontent.com/106215989/172094104-160fb574-d2e5-4309-b579-9f9527dcadb8.jpg)
+![img281](https://user-images.githubusercontent.com/106215989/172094105-5f4900c3-23fc-4cbd-abe9-8b92e8a65a67.jpg)
+![img283](https://user-images.githubusercontent.com/106215989/172094107-c3a8111a-5e2c-4944-aed2-4dfd6ba6716b.jpg)
+![img285](https://user-images.githubusercontent.com/106215989/172094109-c18c47b0-22ea-4f4d-9c9d-8d2d08379820.jpg)
+![img287](https://user-images.githubusercontent.com/106215989/172094111-11168b5d-ec64-450d-a549-9989b7beb9e4.jpg)
+![img289](https://user-images.githubusercontent.com/106215989/172094114-9c1e4029-c0d0-4dd2-b0e4-082204458746.jpg)
+![img291](https://user-images.githubusercontent.com/106215989/172094115-95e35d44-28c5-4646-92da-0677fa367771.jpg)
+![img293](https://user-images.githubusercontent.com/106215989/172094117-e017f33d-1d6b-4e68-86d5-71b09b388255.jpg)
+![img295](https://user-images.githubusercontent.com/106215989/172094119-4aa4d42a-b900-4c65-971a-ce05ebc2eb05.jpg)
+![img297](https://user-images.githubusercontent.com/106215989/172094120-96571013-1b7f-43eb-8603-23040a207797.jpg)
+![img299](https://user-images.githubusercontent.com/106215989/172094121-68d0f7dd-e4f7-4a2a-b2eb-e11082b63170.jpg)
+![img301](https://user-images.githubusercontent.com/106215989/172094123-dda1b957-200b-4edb-869d-ab6cf1def13b.jpg)
