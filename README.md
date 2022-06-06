@@ -1,14 +1,14 @@
 # Sql-Server-Master
 
-Sno| Topic Name | Youtube link
----|-----|----
-1  | Installation | [Link](https://www.youtube.com/watch?v=7GVFYt6_ZFM&list=PL08903FB7ACA1C2FB)
-2| Connecting to SQL Server using SSMS - Part 1 | [Link](https://www.youtube.com/watch?v=ZNObiptSMSI&list=PL08903FB7ACA1C2FB&index=2)
-3| Creating altering and dropping a database - Part 2 | [Link](https://www.youtube.com/watch?v=TuxuHHacIWU&list=PL08903FB7ACA1C2FB&index=3)
-4| Creating and working with tables - Part 3 | [Link](https://www.youtube.com/watch?v=JLeaM8pK8dE&list=PL08903FB7ACA1C2FB&index=4)
-5| Adding a default constraint - Part 4 | [Link](https://www.youtube.com/watch?v=dwSqHhMl32Y&list=PL08903FB7ACA1C2FB&index=5)
-6| Cascading referential integrity constraint - Part 5 | [Link](youtube.com/watch?v=ETepOVi7Xk8&list=PL08903FB7ACA1C2FB&index=6)
-7| Adding a check constraint - Part 6 | [Link](https://www.youtube.com/watch?v=9Zj5ODhv0b0&list=PL08903FB7ACA1C2FB&index=7)
-8| Identity Column in SQL Server - Part 7 | [Link](https://www.youtube.com/watch?v=aOkFE6NLGCQ&list=PL08903FB7ACA1C2FB&index=8)
-9| How to get the last generated identity column value in SQL Server - Part 8 | [Link](https://www.youtube.com/watch?v=n1iwngG_zNY&list=PL08903FB7ACA1C2FB&index=9)
-10| Unique key constraint - Part 9 | [Link](https://www.youtube.com/watch?v=oqrsfatxTYE&list=PL08903FB7ACA1C2FB&index=10)
+Sno| Topic Name | Youtube link | Notes Link
+---|-----|----| -------------| 
+1  | Installation | [Link](https://www.youtube.com/watch?v=7GVFYt6_ZFM&list=PL08903FB7ACA1C2FB) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/001-Installation)
+2| Connecting to SQL Server using SSMS - Part 1 | [Link](https://www.youtube.com/watch?v=ZNObiptSMSI&list=PL08903FB7ACA1C2FB&index=2) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/002-Connecting%20to%20SQL%20Server%20using%20SSMS%20-%20Part%201)
+3| Creating altering and dropping a database - Part 2 | [Link](https://www.youtube.com/watch?v=TuxuHHacIWU&list=PL08903FB7ACA1C2FB&index=3) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/003-Creating%20altering%20and%20dropping%20a%20database%20-%20Part%202)
+4| Creating and working with tables - Part 3 | [Link](https://www.youtube.com/watch?v=JLeaM8pK8dE&list=PL08903FB7ACA1C2FB&index=4) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/004-Creating%20and%20working%20with%20tables%20-%20Part%203)
+5| Adding a default constraint - Part 4 | [Link](https://www.youtube.com/watch?v=dwSqHhMl32Y&list=PL08903FB7ACA1C2FB&index=5) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/005-Adding%20a%20default%20constraint%20-%20Part%204)
+6| Cascading referential integrity constraint - Part 5 | [Link](youtube.com/watch?v=ETepOVi7Xk8&list=PL08903FB7ACA1C2FB&index=6) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/006-Cascading%20referential%20integrity%20constraint%20-%20Part%205)
+7| Adding a check constraint - Part 6 | [Link](https://www.youtube.com/watch?v=9Zj5ODhv0b0&list=PL08903FB7ACA1C2FB&index=7) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/007-Adding%20a%20check%20constraint%20-%20Part%206)
+8| Identity Column in SQL Server - Part 7 | [Link](https://www.youtube.com/watch?v=aOkFE6NLGCQ&list=PL08903FB7ACA1C2FB&index=8) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/008-Identity%20Column%20in%20SQL%20Server%20-%20Part%207)
+9| How to get the last generated identity column value in SQL Server - Part 8 | [Link](https://www.youtube.com/watch?v=n1iwngG_zNY&list=PL08903FB7ACA1C2FB&index=9) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/009-How%20to%20get%20the%20last%20generated%20identity%20column%20value%20in%20SQL%20Server%20-%20Part%208)
+10| Unique key constraint - Part 9 | [Link](https://www.youtube.com/watch?v=oqrsfatxTYE&list=PL08903FB7ACA1C2FB&index=10) | [Link](https://github.com/ajay-nikumbh/Sql-Server-Master/tree/main/Lecture%20Notes/010-Unique%20key%20constraint%20-%20Part%209)
